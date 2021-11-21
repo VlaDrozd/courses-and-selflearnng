@@ -1,0 +1,19 @@
+<div class='description'>
+    <div class='container'>
+        <h2 class='description__title'>{{title}}</h2>
+        <div class='description__text-desktop' *ngIf='showMobile'>
+            <p class='intro'>{{introduction}}</p>
+
+            <p class='about-literature'>{{aboutLiterature}}</p>
+
+            <p class='about-portal'>{{aboutPortal}}</p>
+        </div>
+        <div class='description__text-mobile' *ngIf='!showMobile'>
+            <p class='intro'>{{introduction}}</p>
+
+            <p class='about-literature'>{{aboutLiterature}}</p>
+
+            <p class='about-portal'>{{aboutPortal}}</p>
+        </div>
+    </div>
+</div>

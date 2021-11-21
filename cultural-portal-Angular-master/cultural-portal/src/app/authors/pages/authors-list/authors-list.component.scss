@@ -1,0 +1,39 @@
+:host {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cardList > * {
+  box-sizing: border-box;
+}
+
+.searchPanel {
+  padding-top: 90px;
+  background-color: rgb(134, 123, 112);
+}
+.hidden{
+  display: none;
+}
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+  background-color: rgb(146, 136, 125);
+}
+
+@media (max-width: 653px) {
+  .searchPanel {
+    padding-top: 80px;
+  }
+  .cardList {
+    padding-top: 20px;
+  }
+}
+
+
+
+
+
